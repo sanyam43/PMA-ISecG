@@ -12,3 +12,10 @@ C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.S
 C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\obj\Debug\ProjectManagement.SPHelper.csprojResolveAssemblyReference.cache
 C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\obj\Debug\ProjectManagement.SPHelper.dll
 C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\obj\Debug\ProjectManagement.SPHelper.pdb
+C:\Users\s12\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\bin\Debug\ProjectManagement.SPHelper.dll
+C:\Users\s12\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\bin\Debug\ProjectManagement.SPHelper.pdb
+C:\Users\s12\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\bin\Debug\ProjectManagement.Model.dll
+C:\Users\s12\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\bin\Debug\ProjectManagement.Model.pdb
+C:\Users\s12\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\obj\Debug\ProjectManagement.SPHelper.csprojResolveAssemblyReference.cache
+C:\Users\s12\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\obj\Debug\ProjectManagement.SPHelper.dll
+C:\Users\s12\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\obj\Debug\ProjectManagement.SPHelper.pdb
