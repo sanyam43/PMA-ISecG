@@ -1,0 +1,10 @@
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.Model\bin\Debug\ProjectManagement.Model.dll
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.Model\bin\Debug\ProjectManagement.Model.pdb
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.Model\obj\Debug\ProjectManagement.Model.dll
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.Model\obj\Debug\ProjectManagement.Model.pdb
+C:\Users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.Model\obj\Debug\ProjectManagement.Model.csprojResolveAssemblyReference.cache
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.Model\bin\Debug\ProjectManagement.Model.dll
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.Model\bin\Debug\ProjectManagement.Model.pdb
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.Model\obj\Debug\ProjectManagement.Model.csprojResolveAssemblyReference.cache
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.Model\obj\Debug\ProjectManagement.Model.dll
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.Model\obj\Debug\ProjectManagement.Model.pdb

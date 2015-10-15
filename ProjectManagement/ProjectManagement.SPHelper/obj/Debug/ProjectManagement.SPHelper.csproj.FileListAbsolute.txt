@@ -1,0 +1,14 @@
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.SPHelper\bin\Debug\ProjectManagement.SPHelper.dll
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.SPHelper\bin\Debug\ProjectManagement.SPHelper.pdb
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.SPHelper\bin\Debug\ProjectManagement.Model.dll
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.SPHelper\bin\Debug\ProjectManagement.Model.pdb
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.SPHelper\obj\Debug\ProjectManagement.SPHelper.csprojResolveAssemblyReference.cache
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.SPHelper\obj\Debug\ProjectManagement.SPHelper.dll
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.SPHelper\obj\Debug\ProjectManagement.SPHelper.pdb
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\bin\Debug\ProjectManagement.SPHelper.dll
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\bin\Debug\ProjectManagement.SPHelper.pdb
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\bin\Debug\ProjectManagement.Model.dll
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\bin\Debug\ProjectManagement.Model.pdb
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\obj\Debug\ProjectManagement.SPHelper.csprojResolveAssemblyReference.cache
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\obj\Debug\ProjectManagement.SPHelper.dll
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.SPHelper\obj\Debug\ProjectManagement.SPHelper.pdb

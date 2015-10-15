@@ -1,0 +1,18 @@
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.DAL\obj\Debug\ProjectManagement.DAL.csprojResolveAssemblyReference.cache
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.DAL\bin\Debug\ProjectManagement.DAL.dll
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.DAL\bin\Debug\ProjectManagement.DAL.pdb
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.DAL\bin\Debug\ProjectManagement.Model.dll
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.DAL\bin\Debug\ProjectManagement.SPHelper.dll
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.DAL\bin\Debug\ProjectManagement.Model.pdb
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.DAL\bin\Debug\ProjectManagement.SPHelper.pdb
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.DAL\obj\Debug\ProjectManagement.DAL.dll
+c:\users\kanjani\documents\visual studio 2015\Projects\ProjectManagement\ProjectManagement.DAL\obj\Debug\ProjectManagement.DAL.pdb
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.DAL\bin\Debug\ProjectManagement.DAL.dll
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.DAL\bin\Debug\ProjectManagement.DAL.pdb
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.DAL\bin\Debug\ProjectManagement.Model.dll
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.DAL\bin\Debug\ProjectManagement.SPHelper.dll
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.DAL\bin\Debug\ProjectManagement.Model.pdb
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.DAL\bin\Debug\ProjectManagement.SPHelper.pdb
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.DAL\obj\Debug\ProjectManagement.DAL.csprojResolveAssemblyReference.cache
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.DAL\obj\Debug\ProjectManagement.DAL.dll
+C:\Users\mic-ui\Documents\GitHub\PMA-ISecG\ProjectManagement\ProjectManagement.DAL\obj\Debug\ProjectManagement.DAL.pdb
