@@ -1,0 +1,136 @@
+﻿
+    <div class="page-header position-relative">
+        <h1>
+            Edit Project
+            <!--<small>
+                <i class="icon-double-angle-right"></i>
+                overview &amp; stats
+            </small>-->
+        </h1>
+    </div>
+
+
+    <br />
+
+
+    <div class="progress progress-warning progress-small progress-stripped active" ng-show="isBusy">
+
+        <div class="bar" style="width: 100%;"></div>
+
+    </div>
+
+    <br />
+
+    <form class="form-horizontal">
+        <div class="span12">
+            <table id="sample-table-1" class="table table-striped table-bordered table-hover" style="width:500px;">
+
+
+
+
+                <tr>
+                    <td>
+                        Project Name
+                    </td>
+                    <td>
+                        <input type="ProjectName" id="form-field-1" name="ProjectName" ng-model="projectToEditData.ProjectName" required></input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Project Code
+                    </td>
+                    <td>
+                        <input type="ProjectCode" id="form-field-2" name="ProjectCode" ng-model="projectToEditData.ProjectCode" required></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Project Lead
+                    </td>
+                    <td>
+                        <select ng-model="projectToEditData.ProjectLeadId">
+                            <option ng-selected="{{item.ProjectLeadId == projectToEditData.ProjectLeadId}}"
+                                    ng-repeat="item in projectLeads"
+                                    value="{{item.ProjectLeadId}}">
+                                {{item.ProjectLeadName}}
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+
+
+            </table>
+        </div>
+
+
+
+
+
+
+        <div class="span12">
+            <table id="Table3" class="table table-striped table-bordered table-hover" style="width:500px;">
+                <thead>
+                <th colspan="2">
+                    Admin Info
+                </th>
+                </thead>
+                <tr>
+                    <td>
+                        Created Date
+                    </td>
+                    <td>
+                        {{projectToEditData.CreatedDate}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Changed Date
+                    </td>
+                    <td>
+                        {{projectToEditData.ChangedDate}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Changed By
+                    </td>
+                    <td>
+                        {{projectToEditData.ChangedBy}}
+                    </td>
+                </tr>
+
+
+
+            </table>
+        </div>
+
+
+        <div class="span12">
+            <div class="form-actions">
+                <button class="btn btn-info" type="submit" ng-click="editProject()">
+                    <i class="icon-ok bigger-110"></i>
+                    Edit
+                </button>
+
+
+                &nbsp; &nbsp; &nbsp;
+                <button class="btn" ng-click="resetEditProjectForm()">
+                    <i class="icon-undo bigger-110"></i>
+                    Reset
+                </button>
+            </div>
+            <div class="hr"></div>
+        </div>
+
+
+    </form>
+
+
+
+    <br />
+
+
+
+

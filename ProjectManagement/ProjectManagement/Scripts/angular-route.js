@@ -21,9 +21,8 @@
  * <div doc-module-components="ngRoute"></div>
  */
  /* global -ngRouteModule */
-var ngRouteModule = angular.module('ngRoute', ['ng']).
-                        provider('$route', $RouteProvider),
-    $routeMinErr = angular.$$minErr('ngRoute');
+    var ngRouteModule = angular.module('ngRoute', ['ng']).
+                            provider('$route', $RouteProvider);
 
 /**
  * @ngdoc provider

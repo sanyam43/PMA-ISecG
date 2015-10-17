@@ -16,10 +16,16 @@ namespace ProjectManagement.Model
     
         public string ProjectLead { get; set; }
 
+        public string ProjectLeadId { get; set; }
+
+        public Boolean IsActive { get; set; }
+
         public DateTime CreatedDate { get; set; }
 
         public DateTime ChangedDate { get; set; }
 
         public string ChangedBy { get; set; }
+
+        public string OpenClose { get; set; }
     }
 }

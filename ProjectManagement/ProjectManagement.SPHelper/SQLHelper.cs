@@ -52,10 +52,34 @@ namespace ProjectManagement.SPHelper
                 //cmd.Parameters.Clear();
                 return rdr;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 conn.Close();
                 throw;
+            }
+        }
+
+        public static int ExecuteNonQuery(string connString, CommandType cmdType, string cmdText, out int returnValue, params SqlParameter[] cmdParms)
+        {
+            connString = ConfigurationManager.ConnectionStrings["ProjectManagementConnectionString"].ConnectionString;
+            SqlCommand cmd = new SqlCommand();
+
+            using (SqlConnection conn = new SqlConnection(connString))
+            {
+                PrepareCommand(cmd, conn, null, cmdType, cmdText, cmdParms);
+                int val = -2;
+                try
+                {
+                    val = cmd.ExecuteNonQuery();
+                }
+                catch (SqlException ex)
+                {
+                    Console.WriteLine("EXCEPTION: " + ex);
+                    throw;
+                }
+                returnValue = Convert.ToInt32(cmd.Parameters[Param_Return].Value);
+                cmd.Parameters.Clear();
+                return returnValue;
             }
         }
 
@@ -63,7 +87,7 @@ namespace ProjectManagement.SPHelper
         {
 
             if (conn.State != ConnectionState.Open)
-              conn.Open();
+                conn.Open();
 
             cmd.Connection = conn;
             cmd.CommandText = cmdText;
@@ -76,10 +100,12 @@ namespace ProjectManagement.SPHelper
                     cmd.Parameters.Add(parm);
             }
             //if (conn.State != ConnectionState.Open)
-              //  conn.Open();
+            //  conn.Open();
             if (trans != null)
                 cmd.Transaction = trans;
 
         }
+
+
     }
 }

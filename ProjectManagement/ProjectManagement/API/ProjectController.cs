@@ -6,12 +6,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Results;
 
 namespace ProjectManagement.API
 {
     public class ProjectController : ApiController
     {
-        public IEnumerable<ProjectInfo> Get()
+        public JsonResult<IEnumerable<ProjectInfo>> Get()
         {
 
             ProjectInfo[] ListOfProjects = ProjectBl.GetAllProjects();
@@ -20,7 +21,24 @@ namespace ProjectManagement.API
                        select c;
 
 
-            return proj.ToList();
+            return Json(proj);
+
+        }
+
+        public HttpResponseMessage Post(ProjectInfo project)
+        {
+           
+            try
+            {
+                
+                ProjectBl.AddNewProject(project);
+                return new HttpResponseMessage(HttpStatusCode.OK);
+            }
+            catch (Exception ex)
+            {
+                return new HttpResponseMessage(HttpStatusCode.BadRequest);
+            }
+
 
         }
     }

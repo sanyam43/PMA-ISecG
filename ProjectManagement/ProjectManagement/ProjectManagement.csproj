@@ -175,6 +175,8 @@
   <ItemGroup>
     <Compile Include="API\ProjectController.cs" />
     <Compile Include="API\UserController.cs" />
+    <Compile Include="API\ProjectLeadController.cs" />
+    <Compile Include="API\SelectedProjectController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
@@ -194,10 +196,12 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\templatemo_415_dashboard\css\angular-datepicker.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\templatemo_415_dashboard\css\bootstrap.min.css" />
     <Content Include="Content\templatemo_415_dashboard\css\font-awesome.min.css" />
+    <Content Include="Content\templatemo_415_dashboard\css\jquery.ui.datepicker.css" />
     <Content Include="Content\templatemo_415_dashboard\css\templatemo_main.css" />
     <Content Include="Content\templatemo_415_dashboard\data-visualization.html" />
     <Content Include="Content\templatemo_415_dashboard\fonts\fontawesome-webfont.svg" />
@@ -245,6 +249,8 @@
     <Content Include="Scripts\angular-cookies.js" />
     <Content Include="Scripts\angular-cookies.min.js" />
     <Content Include="Scripts\angular-csp.css" />
+    <Content Include="Scripts\angular-datepicker.min.css" />
+    <Content Include="Scripts\angular-datepicker.min.js" />
     <Content Include="Scripts\angular-loader.js" />
     <Content Include="Scripts\angular-loader.min.js" />
     <Content Include="Scripts\angular-message-format.js" />
@@ -1029,6 +1035,7 @@
     <Content Include="Content\templatemo_415_dashboard\fonts\fontawesome-webfont.ttf" />
     <Content Include="Content\templatemo_415_dashboard\fonts\fontawesome-webfont.woff" />
     <Content Include="Content\templatemo_415_dashboard\fonts\FontAwesome.otf" />
+    <Content Include="Scripts\angular-datepicker.sourcemap.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -1045,6 +1052,10 @@
     <Content Include="UI\js\controllers.js" />
     <Content Include="UI\js\directives.js" />
     <Content Include="UI\js\services.js" />
+    <Content Include="UI\Templates\add-new-project.html" />
+    <Content Include="UI\Templates\details-project.html" />
+    <Content Include="UI\Templates\edit-project.html" />
+    <Content Include="UI\Templates\projects.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1083,7 +1094,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="UI\Templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
